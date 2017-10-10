@@ -70,4 +70,5 @@ ELS1 <- glm(freq ~s+cs+f[[1]],family =poisson,data = sample)
 ELS2 <- glm(freq ~s+cs+f[[1]]+f[[2]],family =poisson,data = sample)
 ELS3 <- glm(freq ~s+cs+f[[1]]+f[[2]]+f[[3]],family =poisson,data = sample)
 
+
 #ELSk_1 <- glm(freq ~s+cs+f[[1]]+f[[2]]+....f[[NI-1]],family =poisson,data = sample) 一般化した表現
