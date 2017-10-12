@@ -1,4 +1,3 @@
-
 #Please enter the observed frequency of the square contingency table you wish to calculate as a vector as follows.
 #freq <- c((1,1),(1,2),...(1,r),(2,1),...(2,r),(r,1)...(r,r))
 #(example)
